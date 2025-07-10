@@ -75,3 +75,32 @@ div button{
 .live-preview-image{
     border-radius: 50px;
 }
+.user-section{
+    background-color: rgb(208, 221, 247);
+    border-radius: 20px;
+}
+.user-tittle{
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+}
+.user-sub-tittle{
+    font-size: 80px;
+    color:#4E47FF ;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.user-section{
+    padding: 50px;
+}
+.user-description{
+    font-size: 20px;
+    margin-top: 0 50px;
+    color: #757379;
+}
