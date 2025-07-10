@@ -5,8 +5,7 @@
 }
 /* nav style */
 header{
-    height: 700px;
-    background-image: url("Hero-bg.png");
+    background-image: url("./image/Hero-bg.png");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -15,7 +14,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
     align-items: center;
 }
 .nav-tittle{
@@ -28,7 +27,7 @@ nav{
     font-weight: bold;
     color: white;
     padding: 18px 35px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
 }
 /* banner */
@@ -43,12 +42,36 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 700px;
-    background-image: url("Hero-bg.png");
+    height: 698px;
+    background-image: url("./image/Hero-bg.png");
     background-size: cover;
     background-position: center;
     text-align: center;
-    
+}
+/* main style */
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.live-preview-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
     
 }
+.live-preview-tittle{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.live-preview-description{
+    font-size: 24px;
+    color:#88878b;
+}
+div button{
+    margin:23px ;
     
+}
+.live-preview-image{
+    border-radius: 50px;
+}
