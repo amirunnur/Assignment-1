@@ -3,6 +3,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+html{
+    background-color: #dce7f0;
+}
 /* nav style */
 header{
     background-image: url("./image/Hero-bg.png");
@@ -11,7 +14,7 @@ header{
     text-align: center;
     
 }
-nav{
+ .header-nav{
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
@@ -29,6 +32,9 @@ nav{
     padding: 18px 35px;
     border-radius: 10px;
     border: none;
+}
+.btn-primary:hover{
+    background-color: #757379;
 }
 /* banner */
 .banner-tittle{
@@ -103,4 +109,83 @@ div button{
     font-size: 20px;
     margin-top: 0 50px;
     color: #757379;
+}
+/* form style */
+.form-section{
+    padding: 130px 230px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.Form-tittle{
+    font-size: 97px;
+}
+.form-colam{
+    width: 50%;
+}
+.form-section input[type="email"],input[type="text"] {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+textarea{
+     border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none
+}
+.btn-bottom{
+   background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 10px;
+    border: none; 
+    width: 100%;
+}
+ .btn-bottom:hover{
+    background-color: #757379;
+}
+/* footer */
+footer{
+    background-color: white;
+    padding: 100px 600px;
+}
+
+.footer-title{
+    font-size: 100px;
+     color: #4E47FF;
+     font-weight: bold;
+     text-align: center;
+     margin: 0;
+     }
+.footer-description{
+    font-size: 20px;
+    color: #88878b;
+    text-align: center;
+}
+footer nav ul li{
+    list-style: none;
+    margin-right: 50px;
+
+
+}
+footer nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #757379;
+    
+}
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    
 }
