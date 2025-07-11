@@ -74,6 +74,7 @@ main{
     font-size: 24px;
     color:#88878b;
     margin: 20px;
+    
 }
 
     
@@ -115,6 +116,7 @@ main{
 text-align: center;
 padding: 10px 10px;
 margin-bottom: 50px;
+width: 100%;
 
 }
 .title{
@@ -125,7 +127,7 @@ margin-bottom: 50px;
 }
 .reviews{
     display: flex;
-    gap: 24px;
+    gap: 100px;
     justify-content: center;
 }
 .reviewer{
@@ -143,7 +145,7 @@ margin-bottom: 50px;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
+    width: 100%;
     box-shadow: 1px;
     text-align: left;
 }
@@ -171,20 +173,12 @@ margin: 0; padding: 0;
 .review-img{
     border-radius: 20px;
 }
-
-
-
-
-
-
-
-
 /* form style */
 .form-section{
     padding: 130px 230px;
     display: flex;
     gap: 150px;
-    align-items: center;
+    
 }
 .Form-tittle{
     font-size: 97px;
@@ -220,6 +214,7 @@ textarea{
     border-radius: 10px;
     border: none; 
     width: 100%;
+    
 }
  .btn-bottom:hover{
     background-color: #757379;
